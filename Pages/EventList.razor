@@ -1,0 +1,25 @@
+﻿@page "/events"
+@using EventEase.Models
+@using EventEase.Components
+
+<PageTitle>Browse Events</PageTitle>
+
+<h3 class="mb-4">Upcoming Corporate & Social Events</h3>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var currentEvent in mockEvents)
+    {
+        <div class="col">
+            <EventCard Event="currentEvent" />
+        </div>
+    }
+</div>
+
+@code {
+    private List<EventModels> mockEvents = new()
+    {
+        new EventModels { Id = 1, Name = "Tech Innovation Summit", Date = DateTime.Now.AddDays(14), Location = "Colombo Hub" },
+        new EventModels { Id = 2, Name = "Leadership & Strategy Forum", Date = DateTime.Now.AddDays(30), Location = "Kandy Tech Park" },
+        new EventModels { Id = 3, Name = "Sustainable Commerce Gala", Date = DateTime.Now.AddDays(45), Location = "Galle Face" }
+    };
+}

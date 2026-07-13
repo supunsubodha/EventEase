@@ -207,9 +207,6 @@ C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\Microsoft.DotNet.HotReload.WebAssembly.Browser.r0uvx0ebhi.wasm
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.4si2x4vt88.wasm
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.7mljnlpwfu.pdb
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\dotnet.f0yw6fgye7.js
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.958z1vx7fr.js.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wp5b4xwrtz.wasm.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.4payhwuyuh.wasm.gz
@@ -418,9 +415,6 @@ C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\Microsoft.DotNet.HotReload.WebAssembly.Browser.r0uvx0ebhi.wasm.gz
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.4si2x4vt88.wasm.gz
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.7mljnlpwfu.pdb.gz
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\dotnet.f0yw6fgye7.js.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\EventEase.staticwebassets.runtime.json
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\EventEase.staticwebassets.endpoints.json
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\EventEase.dll
@@ -1111,10 +1105,6 @@ C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compres
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\24omok33vx-{0}-tptq2av103-tptq2av103.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\rgjkgtwzpc-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\3itoz28m0g-{0}-r0uvx0ebhi-r0uvx0ebhi.gz
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\w0lsswlmgp-{0}-4si2x4vt88-4si2x4vt88.gz
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\tnq3z2k0z4-{0}-7mljnlpwfu-7mljnlpwfu.gz
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\1bg2c733co-{0}-f0yw6fgye7-f0yw6fgye7.gz
-C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\erj7zkz6so-{0}-3jx3mfmxb2-3jx3mfmxb2.gz
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\staticwebassets.development.json
@@ -1125,3 +1115,14 @@ C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\EventEa
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\refint\EventEase.dll
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\EventEase.pdb
 C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\ref\EventEase.dll
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\EventEase.sourcelink.json
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.che9imk242.wasm
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.grdibr4l51.pdb
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\dotnet.umw0m2saki.js
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.che9imk242.wasm.gz
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\EventEase.grdibr4l51.pdb.gz
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\bin\Debug\net10.0\wwwroot\_framework\dotnet.umw0m2saki.js.gz
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\w0lsswlmgp-{0}-che9imk242-che9imk242.gz
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\tnq3z2k0z4-{0}-grdibr4l51-grdibr4l51.gz
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\1bg2c733co-{0}-umw0m2saki-umw0m2saki.gz
+C:\Users\LENOVO\Documents\open.uom.lk\Blazor\EventEase\obj\Debug\net10.0\compressed\erj7zkz6so-{0}-w2mk7zbx9l-w2mk7zbx9l.gz

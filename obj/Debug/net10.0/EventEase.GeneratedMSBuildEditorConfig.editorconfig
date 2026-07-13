@@ -41,12 +41,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/LENOVO/Documents/open.uom.lk/Blazor/EventEase/Pages/EventDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnREZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Documents/open.uom.lk/Blazor/EventEase/Pages/EventList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/LENOVO/Documents/open.uom.lk/Blazor/EventEase/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/Documents/open.uom.lk/Blazor/EventEase/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90Rm91bmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Documents/open.uom.lk/Blazor/EventEase/Pages/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/Documents/open.uom.lk/Blazor/EventEase/Pages/Weather.razor]
