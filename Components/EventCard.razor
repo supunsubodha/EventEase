@@ -1,28 +1,28 @@
 ﻿@using EventEase.Models
 
-<div class="card p-3 shadow-sm">
-	<div class="card-body">
-		<h3 class="card-title mb-3">Event Details</h3>
-
-		@if (Event is null)
-		{
-			<p class="text-muted mb-0">No event data available.</p>
-		}
-		else
-		{
-			<div class="mb-3">
-				<label class="form-label" for="event-name">Event Name</label>
-				<input id="event-name" class="form-control" @bind="Event.Name" />
-			</div>
-
-			<p class="mb-1"><strong>ID:</strong> @Event.Id</p>
-			<p class="mb-1"><strong>Date:</strong> @Event.Date.ToString("yyyy-MM-dd")</p>
-			<p class="mb-0"><strong>Location:</strong> @Event.Location</p>
-		}
-	</div>
+<div class="card shadow-sm mb-3" style="width: 18rem; padding: 15px; border: 1px solid #ccc;">
+    
+    <EditForm Model="Event">
+        <DataAnnotationsValidator />
+        
+        <label>Edit Event Name:</label>
+        <InputText @bind-Value="Event.Name" class="form-control mb-1" />
+        
+        <ValidationMessage For="@(() => Event.Name)" style="color: red; font-size: 0.85em;" />
+    </EditForm>
+    
+    <h3 class="mt-2">@Event.Name</h3>
+    
+    <p>
+        <strong>Date:</strong> @Event.Date.ToString("MMM dd, yyyy")<br />
+        <strong>Location:</strong> @Event.Location
+    </p>
+    
+    <a href="/event/@Event.Id">View Details</a>
+    
 </div>
 
 @code {
-	[Parameter]
-	public EventModels? Event { get; set; }
+    [Parameter]
+    public EventModels Event { get; set; } = new();
 }
