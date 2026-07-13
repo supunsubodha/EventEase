@@ -5,21 +5,34 @@
 <PageTitle>Browse Events</PageTitle>
 
 <h3 class="mb-4">Upcoming Corporate & Social Events</h3>
+<p class="text-muted">Displaying @mockEvents.Count optimized records.</p>
 
-<div class="row row-cols-1 row-cols-md-3 g-4">
-    @foreach (var currentEvent in mockEvents)
-    {
-        <div class="col">
+<div class="row row-cols-1 row-cols-md-3 g-4" style="height: 75vh; overflow-y: auto;">
+    
+    <Virtualize Items="@mockEvents" Context="currentEvent" OverscanCount="6">
+        <div class="col mb-3">
             <EventCard Event="currentEvent" />
         </div>
-    }
+    </Virtualize>
+
 </div>
 
 @code {
-    private List<EventModels> mockEvents = new()
+    private List<EventModels> mockEvents = new();
+
+    // This method runs automatically when the page loads
+    protected override void OnInitialized()
     {
-        new EventModels { Id = 1, Name = "Tech Innovation Summit", Date = DateTime.Now.AddDays(14), Location = "Colombo Hub" },
-        new EventModels { Id = 2, Name = "Leadership & Strategy Forum", Date = DateTime.Now.AddDays(30), Location = "Kandy Tech Park" },
-        new EventModels { Id = 3, Name = "Sustainable Commerce Gala", Date = DateTime.Now.AddDays(45), Location = "Galle Face" }
-    };
+        // Generating 5,000 fake events for stress-testing
+        for (int i = 1; i <= 5000; i++)
+        {
+            mockEvents.Add(new EventModels
+            {
+                Id = i,
+                Name = $"Corporate Summit {i}",
+                Date = DateTime.Now.AddDays(i),
+                Location = i % 2 == 0 ? "Colombo Hub" : "Kandy Tech Park"
+            });
+        }
+    }
 }

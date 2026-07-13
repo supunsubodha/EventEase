@@ -1,5 +1,19 @@
-﻿<h3>Registration</h3>
+﻿@page "/register/{EventId:int}"
+
+<PageTitle>Event Registration</PageTitle>
+
+<div class="container mt-4">
+    <h3>Secure Your Ticket</h3>
+    <div class="alert alert-info">
+        You are initiating the registration pipeline for <strong>Event ID: @EventId</strong>.
+    </div>
+
+    <p class="text-muted">The advanced registration state management, user session tracking, and inputs will be fully wired in during the next activity phase.</p>
+
+    <a href="/event/@EventId" class="btn btn-outline-danger">Abort Registration</a>
+</div>
 
 @code {
-
+    [Parameter]
+    public int EventId { get; set; }
 }

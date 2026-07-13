@@ -1,5 +1,35 @@
-﻿<h3>EventDetails</h3>
+﻿@page "/event/{Id:int}"
+
+<PageTitle>Event Details</PageTitle>
+
+@if (Id > 3 || Id < 1) 
+{
+    <div class="alert alert-warning mt-4 shadow-sm">
+        <h4 class="alert-heading">Event Not Found</h4>
+        <p>We couldn't locate an event with ID <strong>@Id</strong>. It may have expired, been canceled, or the link is broken.</p>
+        <hr>
+        <a href="/events" class="btn btn-secondary btn-sm">Browse All Events</a>
+    </div>
+}
+else
+{
+    <div class="container mt-4">
+        <h3>Detailed Event Overview</h3>
+        <p class="text-secondary">System Parameter Route Log — Active Event ID: <strong>@Id</strong></p>
+
+        <div class="card p-4 mt-3 bg-light border-0 shadow-sm">
+            <h5>Detailed Configuration</h5>
+            <p>This view displays expanded descriptions, session schedules, and guest speakers specific to event number @Id.</p>
+            
+            <div class="mt-4">
+                <a href="/register/@Id" class="btn btn-success me-2">Proceed to Registration</a>
+                <a href="/events" class="btn btn-outline-secondary">Return to Browse</a>
+            </div>
+        </div>
+    </div>
+}
 
 @code {
-
+    [Parameter]
+    public int Id { get; set; }
 }
