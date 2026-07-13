@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "EventEase",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-gtIxVppic+q73qqpRnMw0E4huFeh9r8hXTp0KdEo4eg=",
+    "hash": "sha256-kY8FkSRBp+bHSIXjMRb5d/XdHbZmXLF3azGwtQw60UU=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ikrs475e5v.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "EventEase.wasm",
-        "name": "EventEase.q6ba9olw5k.wasm",
-        "hash": "sha256-3k+5SO6l14OKgkwzQDbLYb/UbyUQcpM3HoKQ110pv0Q=",
+        "name": "EventEase.lygbh30rux.wasm",
+        "hash": "sha256-Y3hR2vVVuiTsBQnztFtc2E6UkEfdy6810B1zBXDCFAc=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "EventEase.pdb",
-        "name": "EventEase.2uavna5lmk.pdb",
-        "hash": "sha256-ZkgFUPqynt3ENAHFCC9fNQIZlLB60L+ltvwkToUOOPg=",
+        "name": "EventEase.aqqm84moav.pdb",
+        "hash": "sha256-0ij/ZV61X8QRNwTPKq+zJDpGmjuJi/zFgupPmP9m5uo=",
         "cache": "force-cache"
       }
     ],

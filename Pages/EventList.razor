@@ -8,13 +8,12 @@
 <p class="text-muted">Displaying @mockEvents.Count optimized records.</p>
 
 <div class="row row-cols-1 row-cols-md-3 g-4" style="height: 75vh; overflow-y: auto;">
-    
-    <Virtualize Items="@mockEvents" Context="currentEvent" OverscanCount="6">
+    @foreach (var currentEvent in mockEvents)
+    {
         <div class="col mb-3">
             <EventCard Event="currentEvent" />
         </div>
-    </Virtualize>
-
+    }
 </div>
 
 @code {
@@ -23,8 +22,8 @@
     // This method runs automatically when the page loads
     protected override void OnInitialized()
     {
-        // Generating 5,000 fake events for stress-testing
-        for (int i = 1; i <= 5000; i++)
+        // Generating 500 fake events for stress-testing
+        for (int i = 1; i <= 500; i++)
         {
             mockEvents.Add(new EventModels
             {

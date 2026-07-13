@@ -1,4 +1,17 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject UserSessionService SessionInfo
+@implements IDisposable
+
+<div class="text-light p-3">
+    @if (SessionInfo.IsLoggedIn)
+    {
+        <small>Welcome, @SessionInfo.CurrentUserName!</small>
+    }
+    else
+    {
+        <small>Guest User</small>
+    }
+</div>
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">EventEase</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -32,8 +45,23 @@
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
+    protected override void OnInitialized()
+    {
+        SessionInfo.OnChange += HandleSessionChanged;
+    }
+
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void HandleSessionChanged()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        SessionInfo.OnChange -= HandleSessionChanged;
     }
 }
